@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BrookerCompany.Data", "BrookerCompany.Data", "{D47E5CE9-4F3D-4CE4-9BA0-29870888C51E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrookerCompany.Data", "BrookerCompany.Data\BrookerCompany.Data.csproj", "{028B4502-A190-4B4A-9A81-353582E21A95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{E2044D07-D840-496B-9554-64E75DF84F23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrookerCompany.Models", "BrookerCompany.Models\BrookerCompany.Models.csproj", "{7DBD70A8-44BF-4674-A5B3-9C14055DCC60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BrookerCompany Services", "BrookerCompany Services", "{85CA6263-1CAE-4961-A96F-ACCDA4D117B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BrookerCompany.DataSeeder", "BrookerCompany.DataSeeder", "{54810312-8F4A-4A0C-812B-961BEA26995A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BrookerCompany.FormApp", "BrookerCompany.FormApp", "{623F4FF9-549F-40C4-AAFB-F0907F517C4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BrookerCompany.ConsoleApp", "BrookerCompany.ConsoleApp", "{410D61CB-93E9-4DD9-AA33-761E81FD496C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BrookerCompany.ViewModel", "BrookerCompany.ViewModel", "{8742B7D5-DAB3-4885-8525-66FDE8BD6C42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BrookerCompany.WebApp", "BrookerCompany.WebApp", "{BD7C007D-833F-4873-9004-A34238405605}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{028B4502-A190-4B4A-9A81-353582E21A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{028B4502-A190-4B4A-9A81-353582E21A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{028B4502-A190-4B4A-9A81-353582E21A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{028B4502-A190-4B4A-9A81-353582E21A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DBD70A8-44BF-4674-A5B3-9C14055DCC60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DBD70A8-44BF-4674-A5B3-9C14055DCC60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DBD70A8-44BF-4674-A5B3-9C14055DCC60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DBD70A8-44BF-4674-A5B3-9C14055DCC60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{028B4502-A190-4B4A-9A81-353582E21A95} = {D47E5CE9-4F3D-4CE4-9BA0-29870888C51E}
+		{7DBD70A8-44BF-4674-A5B3-9C14055DCC60} = {E2044D07-D840-496B-9554-64E75DF84F23}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8484009A-6BDF-49F3-9E8F-D5A16F42319D}
+	EndGlobalSection
+EndGlobal
