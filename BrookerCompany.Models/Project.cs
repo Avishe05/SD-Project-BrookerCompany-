@@ -17,7 +17,7 @@ namespace BrookerCompany.Models
 
         [Required]
         public DateTime ReleaseDate { get; set; }
-        public string Status { get; set; }//Project status, such as "Planned", "In Progress", "Completed"
+        
         public decimal Budget { get; set; }
         public int AddressId { get; set; }
         public virtual Address Address { get; set; }
